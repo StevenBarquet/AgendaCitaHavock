@@ -229,6 +229,13 @@ text-decoration:none;
 {
     background: #eeeded;
 }
+.cover_img
+{
+    width: 93%;
+    background: greenyellow;
+    margin-left: auto;
+    margin-right: auto;
+}
 /*--------Agenda Cita-------*/
 .agenda_titulo
 {

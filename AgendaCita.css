@@ -1,0 +1,389 @@
+body{ 
+    margin: 0px; 
+    padding: 0px;
+}
+a:link
+{
+text-decoration:none; 
+}
+.centrar
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+.sin_borde
+{
+    border: 1px solid transparent;
+}
+.sin_focus
+{
+    cursor: pointer;
+}
+.sin_focus :focus
+{
+    outline: none;
+}
+/* -------------elementos------------*/
+/* -------------etiqueta gris------------*/
+.full_navbar
+{
+    width: 100%;
+}
+.caja_agendar
+{
+    width: 100%;
+    background: #4a4a4a;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-bottom: 20px;
+}
+.caja_agendar:hover
+{
+    background: #585858;
+    cursor: pointer;
+}
+.normal_agendar
+{
+    color: #ffffff;
+    font-size: 13px;
+    letter-spacing: 0.05em;
+    line-height: 1.4em;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.bold_agendar
+{
+    color: #ffffff;
+    font-size: 13px;
+    letter-spacing: 0.05em;
+    line-height: 1.4em;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: bold;
+}
+/* -------------barra con logo------------*/
+.logo_bar
+{
+    width: 100%;
+    padding: 0px;
+}
+.search_bar
+{
+    float: left;
+    display: block;
+    margin-left: 40px;
+    width: 260px;
+}
+.search_box
+{
+    border: 1px solid transparent;
+    display: inline-block;
+    width: 168px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.search_logo
+{
+    display: inline-block;
+}
+.search_input
+{
+    display: inline-block;
+    width: 100px;
+}
+.social_buttons_container
+{
+    display: inline-block;
+}
+.social_buttons_container a
+{
+    margin-left: 10px;
+    color: #232323
+}
+.logo_container_bg
+{
+    display: inline-block;
+    
+    width: 54%;
+}
+.logo_container_sm
+{
+    width: 149px;
+}
+.caja_shop_items
+{
+    float: right;
+    display: block;
+    width: 278px;
+}
+.shop_items
+{
+    width: 69px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    letter-spacing: 0.05em;
+    color: #232323;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.shop_item_wish
+{
+    width: 108px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    letter-spacing: 0.05em;
+    color: #232323;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+/* -------------elementos------------*/
+.navegacion
+{
+    margin-top: 27px;
+    width: 100%;
+    border: 1px solid #dddada;
+    padding-left: 60px;
+    height: 60px;
+}
+.boton_nav
+{
+    float: left;
+    margin-left: 35px;
+    font-size: 13px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: bold;
+    white-space: nowrap;
+    
+    height: 58px;
+    padding-top: 20px;
+    color: #232323;
+}
+.boton_nav:hover
+{
+    background: #faf9f9;
+}
+.link_nav
+{
+    color: #232323;
+    text-decoration:none;
+}
+.link_nav:hover
+{
+    color: #232323;
+    text-decoration:none;
+}
+.link_nav_white
+{
+    color: #ffffff;
+    text-decoration:none;
+}
+.link_nav_white:hover
+{
+    color: #ffffff;
+    text-decoration:none;
+}
+.botones_grises_nav
+{
+    margin-left: 25px;
+    width: 440px;
+    height: 58px;
+    float: left;
+    padding-top: 6px;
+}
+.boton_nav_gris
+{
+    float: left;
+    margin-left: 35px;
+    font-size: 12.4px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: bold;
+    white-space: nowrap;
+    background: #4a4a4a;
+    height: 36px;
+    padding-top: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.boton_nav_gris:hover
+{
+    background: #585858;
+    cursor: pointer;
+}
+/*--------portada-------*/
+.down_button
+{
+    border-radius: 50%;
+    text-align: center;
+    width: 42px;
+    height: 42px;
+    font-size: 24px;
+    font-weight: lighter;
+    padding-top: 2px;
+    box-shadow: 0px 6px 10px 0px rgba(47, 50, 50, 0.35);
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.down_button:hover
+{
+    background: #eeeded;
+}
+/*--------Agenda Cita-------*/
+.agenda_titulo
+{
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    padding: 10px;
+}
+.showroom_container
+{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+.showroom_selecciona
+{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    display: block;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.4em;
+}
+.showroom_caja
+{
+    border: 1px solid #dddada;
+    height: 55px;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+    padding-left: 25px;
+    padding-top: 14px;
+    font-family: 'Oswald',Helvetica,sans-serif;
+    font-size: 15.5px;
+    letter-spacing: 0.05em;
+    color: #464545;
+    cursor: pointer;
+}
+.showroom_caja:hover
+{
+    background: #dfe2e7;
+}
+/*-------Como funciona----------*/
+.como
+{
+    padding-top: 30px;
+    display: block;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Oswald',Helvetica,sans-serif;
+    font-size: 1.8rem;
+    text-transform: none;
+    letter-spacing: 0;
+    font-size: 30px;
+    font-weight: lighter;
+}
+.como_funciona_container
+{
+    width: 97%;
+    padding-bottom: 40px;
+    background: #06091C;
+    margin-bottom: 65px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.como_box_container
+{
+    display: block;
+    background: rgb(179, 180, 185);
+    height: 218px;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.como_agenda_box
+{
+    display: inline-block;
+    width: 252px;
+    height: 207px;
+    margin-left: 5%;
+}
+.como_img_container
+{
+    width: 109px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.como_text_container
+{
+    display: block;
+    width: 248px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Oswald',Helvetica,sans-serif;
+    text-align: center;
+    font-size: 1.4rem;
+    text-transform: none;
+    letter-spacing: 0;
+
+}
+.route_container
+{
+    width: 100%;
+    height: 45px;
+    margin-top: 30px;
+}
+.dot
+{
+    color: #ecebeb;
+    font-size: 22px;
+    display: inline-block;
+    padding-top: 3px;
+}
+.final_dot
+{
+    color: #ecebeb;
+    font-size: 24px;
+    display: inline-block;
+    padding-top: 3px;
+}
+/*----------------bottom bar---------------*/
+.bottom_bar1
+{
+    background: #ecebeb;
+    width: 100%;
+}
+.button_bottom_bar1
+{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.button_bottom_bar1:hover
+{
+    background: #dbd9d9;;
+}
+.bottom_bar1_icon
+{
+    width: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 21px;
+}
+.bottom_bar1_text
+{
+    text-align: center;
+    font-family: 'Oswald',Helvetica,sans-serif;
+}

@@ -23,7 +23,7 @@ text-decoration:none;
 {
     outline: none;
 }
-/* -------------elementos------------*/
+    /* -------------elementos------------*/
 /* -------------etiqueta gris------------*/
 .full_navbar
 {
@@ -365,6 +365,7 @@ text-decoration:none;
     padding-top: 3px;
 }
 /*----------------bottom bar---------------*/
+    /*----------------bottom bar 1---------------*/
 .bottom_bar1
 {
     background: #ecebeb;
@@ -392,4 +393,58 @@ text-decoration:none;
 {
     text-align: center;
     font-family: 'Oswald',Helvetica,sans-serif;
+}
+    /*----------------bottom bar 2 ---------------*/
+.bottom_bar2
+{
+    background: #ffffff;
+    width: 100%;
+    border: 1px solid #dddada;
+}
+.row_bar2
+{
+    width: 100%;
+}
+.button_bottom_bar2
+{
+    height: 40px;
+    padding-top: 14px;
+    text-align: center;
+    font-family: 'Oswald',Helvetica,sans-serif;
+    font-size: 12px;
+}
+.link_hover:hover
+{
+    color: #666565;
+}
+/*----------------bottom bar 3 ---------------*/
+.bottom_bar3
+{
+    background: #fafafa;
+    width: 100%;
+    padding-bottom: 40px;
+    margin-bottom: 110px;
+}
+.bottom_bar3_bloque
+{
+    display: block;
+    padding-top: 35px;
+}
+.social_buttons_container2
+{
+    display: block;
+    width: 90px;
+}
+.social_buttons_container2 a
+{
+    margin-left: 10px;
+    color: #232323
+}
+.logo_container_sm2
+{
+    width: 200px;
+}
+.pay_container_sm
+{
+    width: 208px;
 }
